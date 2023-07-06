@@ -14,22 +14,18 @@
     <header id="main-page" class="header content-section">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item">
-            <a href="#" class="header__menu-link">главная</a>
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a href="#" class="header__menu-link header__menu-link_active"
+              >главная</a
+            >
           </li>
-          <li class="header__menu-item">
-            <a
-              href="#look-at-lots"
-              class="header__menu-link header__menu-link_active"
+          <li class="header__links-list-item link">
+            <a href="#look-at-lots" class="header__menu-link"
               >посмотреть лоты</a
             >
           </li>
-          <li class="header__menu-item">
-            <a
-              href="#about-auction"
-              class="header__menu-link header__menu-link_active"
-              >об аукционе</a
-            >
+          <li class="header__links-list-item link">
+            <a href="#about-auction" class="header__menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -43,13 +39,10 @@
       </a>
 
       <address class="address">
-        <a class="underline" href="tel:+70000000">+9 999 555 5555</a>
+        <a class="link" href="tel:+99995555555">+9 999 555 5555</a>
         <br />
-        <a class="underline" href="mailto:mail@example.com">info@sobaka.ge</a>
-        <br />
-        наб. Принсенграхт 263-265,
-        <br />
-        Амстердам
+        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
 
@@ -58,27 +51,27 @@
         <div class="overlay"></div>
 
         <h1 class="cover__title">
-          <span class="aligned-text">
-            о<span class="letter-spacing-extended">н</span>о
+          <span class="cover__title-aligned-text">
+            о<span class="cover__title-letter-spacing-extended">н</span>о
           </span>
 
-          <span class="aligned-text_center">
-            те<span class="letter-spacing-extended">б</span>е
+          <span class="cover__title-aligned-text_center">
+            те<span class="cover__title-letter-spacing-extended">б</span>е
           </span>
 
-          <span class="aligned-text_right">
-            <span class="letter-spacing-extended">н</span>ад<span
-              class="no-letter-spacing"
+          <span class="cover__title-aligned-text_right">
+            <span class="cover__title-letter-spacing-extended">н</span>ад<span
+              class="cover__title-no-letter-spacing"
               >о</span
             >
           </span>
         </h1>
 
         <div class="cover__description">
-          <div class="cover__description-text">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </div>
-          <button class="bet-button">Сделать ставку</button>
+          </p>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
 
@@ -90,9 +83,9 @@
             <a href="#" class="card-link">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h4 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h4>
+                </h3>
                 <div class="card__text">
                   <p>
                     Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
@@ -108,9 +101,9 @@
             <a href="#" class="card-link">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h4 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h4>
+                </h3>
                 <div class="card__text">
                   <p>
                     Объёмом почти в тысячу страниц. Иногда без знаков препинания
@@ -129,9 +122,9 @@
             <a href="#" class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h4 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h4>
+                </h3>
                 <div class="card__text">
                   <p>
                     Ну действительно, там линия, тут кружочек, а здесь и вовсе
@@ -160,7 +153,7 @@
         </div>
 
         <div class="about__column">
-          <h3 class="about__title">Об аукционе</h3>
+          <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -185,40 +178,38 @@
 
     <footer class="footer content-section">
       <address class="address">
-        <a class="underline" href="tel:+70000000">+9 999 555 5555</a>
+        <a class="link" href="tel:+99995555555">+9 999 555 5555</a>
         <br />
-        <a class="underline" href="mailto:mail@example.com">info@sobaka.ge</a>
-        <br />
-        наб. Принсенграхт 263-265,
-        <br />
-        Амстердам
+        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
 
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-item">
-            <a href="#main-page" class="footer__menu-link">главная</a>
+          <li class="footer__links-list-item footer__links-list-item_no-bullit">
+            <a href="#" class="footer__menu-link footer__menu-link_active"
+              >главная</a
+            >
           </li>
-          <li class="footer__menu-item">
-            <a
-              href="#look-at-lots"
-              class="footer__menu-link footer__menu-link_active"
+          <li class="footer__links-list-item link">
+            <a href="#look-at-lots" class="footer__menu-link"
               >посмотреть лоты</a
             >
           </li>
-          <li class="footer__menu-item">
-            <a
-              href="#about-auction"
-              class="footer__menu-link footer__menu-link_active"
-              >об аукционе</a
-            >
+          <li class="footer__links-list-item link">
+            <a href="#about-auction" class="footer__menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
 
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+          >
             <img
               src="./images/yt.svg"
               alt="Ютьюб"
@@ -227,7 +218,12 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+          >
             <img
               src="./images/vk.svg"
               alt="вконтакте"
@@ -236,7 +232,12 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+          >
             <img
               src="./images/pinterest.svg"
               alt="пинтерест"

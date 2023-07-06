@@ -22,26 +22,26 @@
   z-index: 3;
 }
 
-.aligned-text {
+.cover__title-aligned-text {
   line-height: 115%;
 }
 
-.aligned-text_center {
+.cover__title-aligned-text_center {
   margin-right: 30px;
   line-height: 100%;
   text-align: center;
 }
 
-.aligned-text_right {
+.cover__title-aligned-text_right {
   line-height: 100%;
   text-align: right;
 }
 
-.no-letter-spacing {
+.cover__title-no-letter-spacing {
   letter-spacing: 0px;
 }
 
-.letter-spacing-extended {
+.cover__title-letter-spacing-extended {
   letter-spacing: 60px;
 }
 

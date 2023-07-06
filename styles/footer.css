@@ -20,13 +20,8 @@
   list-style: none;
 }
 
-.footer__menu-item {
-  transition: all 0.2s;
-}
-
-.footer__menu-item:hover {
-  padding-bottom: 1px;
-  border-bottom: 1px solid #000;
+.footer__links-list-item_no-bullit {
+  list-style: none;
 }
 
 .footer__menu-link {
@@ -36,15 +31,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.footer__menu-link:first-child {
-  list-style: none;
-}
-
-.footer__menu-link_active {
-  padding-bottom: 1px;
-  border-bottom: 1px solid #000;
 }
 
 .footer__social-list {

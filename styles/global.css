@@ -39,9 +39,8 @@ img {
 }
 
 .content-section {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
-  min-height: 100px;
 }
 
 .overlay {
@@ -52,4 +51,13 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 2;
+}
+
+.link {
+  text-decoration: underline currentColor;
+  text-underline-offset: 5px;
+}
+
+.link_active {
+  border-bottom: none;
 }
