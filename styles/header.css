@@ -1,6 +1,5 @@
 .header {
-  padding: 92px 49px 92px 51px;
-  min-height: 293px;
+  padding: 92px 50px 96px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: #000;
@@ -11,7 +10,7 @@
 }
 
 .header__menu-list {
-  width: 389px;
+  max-width: 389px;
   height: 100%;
   display: flex;
   column-gap: 28px;
@@ -37,16 +36,4 @@
 
 .header__logo-image {
   height: 100%;
-}
-
-.address {
-  margin-top: 5px;
-  justify-self: end;
-  width: 240px;
-  height: 97px;
-  color: #000;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24.3px;
 }
